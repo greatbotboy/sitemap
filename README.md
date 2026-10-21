@@ -1,5 +1,7 @@
 # sitemapgen
 
+[![tests](https://github.com/greatbotboy/sitemap/actions/workflows/test.yml/badge.svg)](https://github.com/greatbotboy/sitemap/actions/workflows/test.yml)
+
 Generate [Sitemaps protocol](https://www.sitemaps.org/protocol.html) files from a list of URLs or by crawling a site.
 
 The package is stdlib-only and targets Python 3.11+. It writes XML urlsets, sitemap index files when a document would pass the protocol limits, and the plain-text URL format. It can also add a `Sitemap:` line to `robots.txt`.
@@ -10,7 +12,10 @@ RSS, Atom, namespace extensions, and search-engine ping are out of scope.
 
 ```bash
 pip install -e ".[dev]"
+python -m pytest
 ```
+
+The source repository is https://github.com/greatbotboy/sitemap.
 
 ## CLI
 
@@ -88,3 +93,7 @@ JSONL images and alternates look like this:
 ```json
 {"loc": "https://example.com/guide", "lastmod": "2024-05-01", "images": [{"loc": "https://cdn.example.com/cover.jpg", "title": "Cover"}], "alternates": [{"hreflang": "de", "href": "https://example.de/guide"}]}
 ```
+
+## License
+
+[MIT](LICENSE)

@@ -1,0 +1,18 @@
+name: Feature request
+description: Suggest a sitemap field, command, or crawl behavior.
+title: "Feature: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to put in a sitemap, or what does the tool fail to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
