@@ -1,6 +1,8 @@
 # sitemapgen
 
 [![tests](https://github.com/greatbotboy/sitemap/actions/workflows/test.yml/badge.svg)](https://github.com/greatbotboy/sitemap/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
 Generate [Sitemaps protocol](https://www.sitemaps.org/protocol.html) files from a list of URLs or by crawling a site.
 
